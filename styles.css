@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+body {
+    background-image: url(./assets/background.png);
+    background-color: #121214;
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding-top: 32px;
+    height: 160px;
+}
+
+header div {
+    width: 120px;
+    margin: auto;
+    background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50%, #E2D45C 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+}
+
+header div img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+main {
+    max-width: 680px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 24px;
+}
+
+section {
+    color: white;
+    background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section div {
+    background-color: #2A2634;    
+    padding: 24px 32px 32px;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: white;
+}
+
+section p {
+    color: #A1A1AA;
+}
+
+section ul {
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.games-list img {
+    width: 140px;
+    border-radius: 8px;
+    transition: transform .2s;
+}
+
+.games-list img:hover {
+    transform: scale(1.02);
+}
+
+.channel-list img {
+    border-radius: 50%;
+    width: 70px;
+    border: 2px solid #443E54;
+}
+
+/* Animations: */
+
+header div {
+    animation: fromTop .6s 0.2s backwards;
+}
+
+main section {
+    animation: fromBottom .6s;
+}
+
+main section:nth-child(1) {
+    animation-delay: 0;
+}
+
+main section:nth-child(2) {
+    animation-delay: .1s;
+}
+
+main section:nth-child(3) {
+    animation-delay: .2s;
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
