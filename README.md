@@ -1,7 +1,7 @@
 ## 💻 Projeto
 
-O NLW eSports foi um evento apresentado pela Rocketseat.
-O projeto desenvolvido na edição foi uma página de perfil em uma plataforma fictícia sobre Games.
+O NLW eSports foi um evento apresentado pela Rocketseat.<br><br>
+Na edição, o projeto desenvolvido foi uma página de perfil para uma plataforma de Games.
 
 ## 🚀 Tecnologias
 
