@@ -1,14 +1,15 @@
-## 💻 Projeto
+## 💻 NLW eSports
 
-O NLW eSports foi um evento apresentado pela Rocketseat.<br><br>
-O projeto da edição foi uma página de perfil para uma plataforma de Games.
+Next Level Week is a development event presented by Rocketseat.
+<br><br>
+The project of the edition was a profile page for a Gaming platform.
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - HTML
 - CSS
 - JavaScript
 
-Feito com 💜 durante o NLW eSports da Rocketseat.
+Made with the 💜 during Rocketseat's NLW eSports.
