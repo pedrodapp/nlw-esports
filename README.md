@@ -2,7 +2,7 @@
 
 Next Level Week is a development event presented by Rocketseat.
 <br><br>
-The project of the edition was a profile page for a Gaming platform.
+The project of the edition was a profile page for a Gaming Platform.
 
 ## 🚀 Technologies
 
