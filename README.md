@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://pedrodapp.github.io/nlw-esports/" target="_blank"><img alt="NLW-eSports-Mockup" src="./preview.png" width="100%"></a>
+</p>
+
 ## 💻 NLW eSports
 
 Next Level Week is a development event presented by Rocketseat.
